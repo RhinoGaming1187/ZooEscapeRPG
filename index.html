@@ -13,8 +13,8 @@
 
     #StartInput {
       display: flex;
-      width: 100%;
       height: 25px;
+      margin: auto;
     }
 
   </style>
@@ -22,9 +22,13 @@
     <h1 id="Heading">Welcome to ZooEscape!</h1>
     
     <div id="StartInput">
-      <p>Number of players:
-        <input type="number"/>
-      </p>
+      <label style="padding-right: 5px;">Number of players:</label>
+      <input type="number"/>
+
+      <label style="padding-right: 5px; padding-left: 20px;">Number of Encounters:</label>
+      <input type="number"/>
+
+      <button style="margin-left: 20px;"> Start Escape Attempt </button>
     </div>
 
   </body>
